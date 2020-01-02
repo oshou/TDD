@@ -1,7 +1,7 @@
 <?php
 
-require "vendor/autoload.php";
-require "fizzbuzz/fizzbuzz.php";
+require __DIR__ . '/../vendor/autoload.php';
+require __DIR__ . "/fizzbuzz.php";
 
 use PHPUnit\Framework\TestCase;
 use TDD\FizzBuzz;
